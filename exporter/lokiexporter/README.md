@@ -44,6 +44,8 @@ The following settings can be optionally configured:
 
 - `headers` (no default): Name/value pairs added to the HTTP request headers.
 
+- `format` (default = LokiEntry): Set the log entry line format. This can be set to JSON or a LokiEntry. 
+
 Example:
 
 ```yaml
