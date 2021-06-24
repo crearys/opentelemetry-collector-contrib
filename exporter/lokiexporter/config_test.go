@@ -87,7 +87,7 @@ func TestLoadConfig(t *testing.T) {
 				"severity":      "severity",
 			},
 		},
-		Format: "loki",
+		Format: "body",
 	}
 	require.Equal(t, &expectedCfg, actualCfg)
 }
