@@ -3,6 +3,9 @@ module github.com/open-telemetry/opentelemetry-collector-contrib
 go 1.15
 
 require (
+	cloud.google.com/go/container v1.1.0 // indirect
+	cloud.google.com/go/monitoring v1.3.0 // indirect
+	cloud.google.com/go/trace v1.1.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter v0.0.0-00010101000000-000000000000
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter v0.0.0-00010101000000-000000000000
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awskinesisexporter v0.0.0-00010101000000-000000000000
@@ -68,8 +71,8 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver v0.0.0-00010101000000-000000000000
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zookeeperreceiver v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.7.0
-	go.opentelemetry.io/collector v0.27.0
-	golang.org/x/sys v0.0.0-20210510120138-977fb7262007
+	go.opentelemetry.io/collector v0.45.0
+	golang.org/x/sys v0.0.0-20220128215802-99c3d69c2c27
 )
 
 // Replace references to modules that are in this repository with their relateive paths
